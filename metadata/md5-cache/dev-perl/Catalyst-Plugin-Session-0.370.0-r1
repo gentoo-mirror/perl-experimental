@@ -1,0 +1,12 @@
+_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	unpacker	f300a7ca9131b1024a79762e8edd3c52	multiprocessing	d7f2985a2c76c365ee20269db5261414	eutils	9fb270e417e0e83d64ca52586c4a79de	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
+_md5_=e0067232ced3f8b433e242223b646b62
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.590.0 >=virtual/perl-ExtUtils-MakeMaker-6.590.0 dev-perl/Test-Deep dev-perl/Test-Exception dev-perl/Test-WWW-Mechanize-PSGI >=dev-perl/Catalyst-Runtime-5.710.10 virtual/perl-Digest virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/MRO-Compat >=dev-perl/Moose-0.760.0 >=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.8.10 dev-perl/Object-Signature >=virtual/perl-Test-Simple-0.88 >=virtual/perl-Tie-RefHash-1.340.0 >=dev-perl/namespace-clean-0.100.0 >=dev-lang/perl-5.8.0 dev-lang/perl:=[-build(-)]
+DESCRIPTION=Generic Session plugin - connect server side storage and client side state to maintain session data
+LICENSE=|| ( Artistic GPL-2 )
+SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Session-0.37.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-Session/
+RDEPEND=>=dev-perl/Catalyst-Runtime-5.710.10 virtual/perl-Digest virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/MRO-Compat >=dev-perl/Moose-0.760.0 >=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.8.10 dev-perl/Object-Signature >=virtual/perl-Test-Simple-0.88 >=virtual/perl-Tie-RefHash-1.340.0 >=dev-perl/namespace-clean-0.100.0 >=dev-lang/perl-5.8.0 dev-lang/perl:=[-build(-)]

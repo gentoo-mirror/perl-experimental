@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=c5a6a0a34f24e495beaf8ed27c9c6245
+SLOT=0
+DEFINED_PHASES=-
+EAPI=5
+DESCRIPTION=Virtual for constant
+KEYWORDS=~amd64 ~x86
+RDEPEND=|| ( =dev-lang/perl-5.22* ~perl-core/constant-1.330.0 ) !<perl-core/constant-1.330.0 !>perl-core/constant-1.330.0

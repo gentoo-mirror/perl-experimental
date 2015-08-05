@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=424256a29b3d92859b770c1196e585bf
+SLOT=0
+DEFINED_PHASES=-
+EAPI=5
+DESCRIPTION=Virtual for perl-core/Pod-Perldoc
+KEYWORDS=~x86 ~amd64
+RDEPEND=|| ( =dev-lang/perl-5.20* ~perl-core/Pod-Perldoc-3.230.0 ) !<perl-core/Pod-Perldoc-3.230.0 !>perl-core/Pod-Perldoc-3.230.0-r999

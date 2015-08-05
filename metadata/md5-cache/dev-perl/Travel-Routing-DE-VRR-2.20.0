@@ -1,0 +1,12 @@
+_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	unpacker	f300a7ca9131b1024a79762e8edd3c52	multiprocessing	d7f2985a2c76c365ee20269db5261414	eutils	9fb270e417e0e83d64ca52586c4a79de	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
+_md5_=1494563c30a7dba3c835ebaf2ed8814
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=>=dev-perl/Module-Build-0.380.0 dev-perl/File-Slurp dev-perl/Test-Compile dev-perl/Test-Fatal virtual/perl-Test-Simple dev-perl/Test-Pod dev-perl/Class-Accessor dev-perl/Exception-Class virtual/perl-Getopt-Long dev-perl/libwww-perl dev-perl/XML-LibXML >=dev-lang/perl-5.10.1 dev-lang/perl:=[-build(-)]
+DESCRIPTION=unofficial interface to the efa.vrr.de German itinerary service
+LICENSE=WTFPL-2
+SRC_URI=mirror://cpan/authors/id/D/DE/DERF/Travel-Routing-DE-VRR-2.02.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://search.cpan.org/dist/Travel-Routing-DE-VRR/
+RDEPEND=dev-perl/Class-Accessor dev-perl/Exception-Class virtual/perl-Getopt-Long dev-perl/libwww-perl dev-perl/XML-LibXML >=dev-lang/perl-5.10.1 dev-lang/perl:=[-build(-)]

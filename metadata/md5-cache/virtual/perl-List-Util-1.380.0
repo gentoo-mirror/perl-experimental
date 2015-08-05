@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=fd7bc6b7fd01f1546ab18d321478972
+SLOT=0
+DEFINED_PHASES=-
+EAPI=5
+DESCRIPTION=Virtual for List-Util
+KEYWORDS=~amd64 ~x86
+RDEPEND=~virtual/perl-Scalar-List-Utils-1.380.0

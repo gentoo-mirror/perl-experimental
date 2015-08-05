@@ -1,0 +1,13 @@
+_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	unpacker	f300a7ca9131b1024a79762e8edd3c52	multiprocessing	d7f2985a2c76c365ee20269db5261414	eutils	9fb270e417e0e83d64ca52586c4a79de	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
+_md5_=8ebb090a625f5394eff76173fcc3f7aa
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Provides a unified approach to tracing
+LICENSE=GPL-2
+IUSE=test
+SRC_URI=mirror://cpan/authors/id/B/BB/BBC/Log-Trace-1.070.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://search.cpan.org/dist/Log-Trace/
+RDEPEND=dev-lang/perl:=[-build(-)]
