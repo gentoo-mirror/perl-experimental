@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=bf44b2d54c3d952eca46dd23fe55676c
+SLOT=0
+DEFINED_PHASES=-
+EAPI=5
+DESCRIPTION=Virtual for perl-core/IPC-SysV
+KEYWORDS=~x86 ~amd64
+RDEPEND=|| ( =dev-lang/perl-5.22* =dev-lang/perl-5.20* ~perl-core/IPC-SysV-2.40.0 ) !<perl-core/IPC-SysV-2.40.0 !>perl-core/IPC-SysV-2.40.0-r999

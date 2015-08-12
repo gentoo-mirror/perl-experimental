@@ -1,0 +1,13 @@
+_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	eutils	351a78113be5b393c09a2c948701ad36	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
+_md5_=b39d6b78c6d70c291c41674d629b27a4
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=dev-perl/Carp-Clan dev-perl/Catalyst-Component-InstancePerContext >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/DBIx-Class-0.81.140 dev-perl/DBIx-Class-Cursor-Cached >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 dev-perl/Hash-Merge dev-perl/List-MoreUtils >=dev-perl/Moose-1.120.0 >=dev-perl/MooseX-MarkAsMethods-0.130.0 >=dev-perl/MooseX-NonMoose-0.160.0 dev-perl/MooseX-Types >=dev-perl/MooseX-Types-LoadableClass-0.9.0 >=dev-perl/Module-Runtime-0.12.0 dev-perl/Tie-IxHash dev-perl/Try-Tiny >=dev-perl/namespace-autoclean-0.90.0 dev-perl/namespace-clean >=dev-lang/perl-5.8.1 >=virtual/perl-ExtUtils-MakeMaker-6.590.0 test? ( dev-perl/DBD-SQLite virtual/perl-Storable dev-perl/Test-Exception >=virtual/perl-Test-Simple-0.940.0 dev-perl/Test-Requires ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=DBIx::Class::Schema Model Class
+LICENSE=|| ( Artistic GPL-1+ )
+IUSE=test
+SRC_URI=mirror://cpan/authors/id/G/GB/GBJK/Catalyst-Model-DBIC-Schema-0.65.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://search.cpan.org/dist/Catalyst-Model-DBIC-Schema/
+RDEPEND=dev-perl/Carp-Clan dev-perl/Catalyst-Component-InstancePerContext >=dev-perl/Catalyst-Devel-1.0.0 >=dev-perl/Catalyst-Runtime-5.800.50 >=dev-perl/CatalystX-Component-Traits-0.140.0 >=dev-perl/DBIx-Class-0.81.140 dev-perl/DBIx-Class-Cursor-Cached >=dev-perl/DBIx-Class-Schema-Loader-0.40.50 dev-perl/Hash-Merge dev-perl/List-MoreUtils >=dev-perl/Moose-1.120.0 >=dev-perl/MooseX-MarkAsMethods-0.130.0 >=dev-perl/MooseX-NonMoose-0.160.0 dev-perl/MooseX-Types >=dev-perl/MooseX-Types-LoadableClass-0.9.0 >=dev-perl/Module-Runtime-0.12.0 dev-perl/Tie-IxHash dev-perl/Try-Tiny >=dev-perl/namespace-autoclean-0.90.0 dev-perl/namespace-clean >=dev-lang/perl-5.8.1 dev-lang/perl:=[-build(-)]

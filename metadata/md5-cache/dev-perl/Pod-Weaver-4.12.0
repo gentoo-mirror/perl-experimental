@@ -1,0 +1,13 @@
+_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	eutils	351a78113be5b393c09a2c948701ad36	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
+_md5_=b0a658d491fc722c548fed9a6325cb57
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=>=dev-perl/Config-MVP-2.0.0 dev-perl/Config-MVP-Reader-INI dev-perl/DateTime virtual/perl-Encode virtual/perl-File-Spec dev-perl/List-MoreUtils >=dev-perl/Log-Dispatchouli-1.100.710 >=dev-perl/Mixin-Linewise-0.103.0 dev-perl/Module-Runtime dev-perl/Moose dev-perl/Params-Util >=dev-perl/Pod-Elemental-0.100.220 >=dev-perl/String-Flogger-1.0.0 >=dev-perl/String-Formatter-0.100.680 dev-perl/String-RewritePrefix virtual/perl-Text-Tabs+Wrap dev-perl/namespace-autoclean virtual/perl-ExtUtils-MakeMaker test? ( >=virtual/perl-CPAN-Meta-2.120.900 virtual/perl-File-Spec dev-perl/PPI dev-perl/Software-License dev-perl/Test-Differences >=virtual/perl-Test-Simple-0.960.0 ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=weave together a Pod document from an outline
+LICENSE=|| ( Artistic GPL-1+ )
+IUSE=test
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Pod-Weaver-4.012.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://search.cpan.org/dist/Pod-Weaver/
+RDEPEND=>=dev-perl/Config-MVP-2.0.0 dev-perl/Config-MVP-Reader-INI dev-perl/DateTime virtual/perl-Encode virtual/perl-File-Spec dev-perl/List-MoreUtils >=dev-perl/Log-Dispatchouli-1.100.710 >=dev-perl/Mixin-Linewise-0.103.0 dev-perl/Module-Runtime dev-perl/Moose dev-perl/Params-Util >=dev-perl/Pod-Elemental-0.100.220 >=dev-perl/String-Flogger-1.0.0 >=dev-perl/String-Formatter-0.100.680 dev-perl/String-RewritePrefix virtual/perl-Text-Tabs+Wrap dev-perl/namespace-autoclean dev-lang/perl:=[-build(-)]

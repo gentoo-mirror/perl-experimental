@@ -1,0 +1,12 @@
+_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	eutils	351a78113be5b393c09a2c948701ad36	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
+_md5_=861f2c73d7f6e5f3e0b6bbc54b1e984d
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=dev-perl/Variable-Magic virtual/perl-Tie-RefHash dev-lang/perl:=[-build(-)]
+DESCRIPTION=A Tie::RefHash subclass with weakened references in the keys
+LICENSE=|| ( Artistic GPL-1+ )
+SRC_URI=mirror://cpan/authors/id/N/NU/NUFFIN/Tie-RefHash-Weak-0.09.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://search.cpan.org/dist/Tie-RefHash-Weak/
+RDEPEND=dev-perl/Variable-Magic virtual/perl-Tie-RefHash dev-lang/perl:=[-build(-)]

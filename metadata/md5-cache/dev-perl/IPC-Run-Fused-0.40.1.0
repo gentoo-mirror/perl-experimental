@@ -1,0 +1,13 @@
+_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	eutils	351a78113be5b393c09a2c948701ad36	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
+_md5_=dd3e0cb2f9455a35a6e22e02dd64d471
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=>=dev-perl/Module-Build-0.400.300 >=dev-perl/Module-Build-0.400.300 dev-lang/perl virtual/perl-IO dev-perl/Module-Runtime >=dev-perl/Sub-Exporter-0.982.0 >=dev-lang/perl-5.8.3 dev-lang/perl dev-lang/perl test? ( dev-lang/perl virtual/perl-File-Temp dev-lang/perl >=virtual/perl-Test-Simple-0.980.0 ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Capture Stdout/Stderr simultaneously as if it were one stream, painlessly.
+LICENSE=|| ( Artistic GPL-2 )
+IUSE=test
+SRC_URI=mirror://cpan/authors/id/K/KE/KENTNL/IPC-Run-Fused-0.04000100.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://search.cpan.org/dist/IPC-Run-Fused/
+RDEPEND=dev-lang/perl virtual/perl-IO dev-perl/Module-Runtime >=dev-perl/Sub-Exporter-0.982.0 >=dev-lang/perl-5.8.3 dev-lang/perl dev-lang/perl dev-lang/perl:=[-build(-)]

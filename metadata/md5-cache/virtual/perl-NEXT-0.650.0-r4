@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=41cbeb5a7164a08df0e771b82a161417
+SLOT=0
+DEFINED_PHASES=-
+EAPI=5
+DESCRIPTION=Virtual for perl-core/NEXT
+KEYWORDS=~x86 ~amd64
+RDEPEND=|| ( =dev-lang/perl-5.22* =dev-lang/perl-5.20* ~perl-core/NEXT-0.650.0 )
