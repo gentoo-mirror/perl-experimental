@@ -1,12 +1,12 @@
-_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	eutils	351a78113be5b393c09a2c948701ad36	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
-_md5_=e0067232ced3f8b433e242223b646b62
-SLOT=0
 DEFINED_PHASES=compile configure install prepare test unpack
-EAPI=5
 DEPEND=>=virtual/perl-ExtUtils-MakeMaker-6.590.0 >=virtual/perl-ExtUtils-MakeMaker-6.590.0 dev-perl/Test-Deep dev-perl/Test-Exception dev-perl/Test-WWW-Mechanize-PSGI >=dev-perl/Catalyst-Runtime-5.710.10 virtual/perl-Digest virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/MRO-Compat >=dev-perl/Moose-0.760.0 >=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.8.10 dev-perl/Object-Signature >=virtual/perl-Test-Simple-0.88 >=virtual/perl-Tie-RefHash-1.340.0 >=dev-perl/namespace-clean-0.100.0 >=dev-lang/perl-5.8.0 dev-lang/perl:=[-build(-)]
 DESCRIPTION=Generic Session plugin - connect server side storage and client side state to maintain session data
-LICENSE=|| ( Artistic GPL-2 )
-SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Session-0.37.tar.gz
-KEYWORDS=~amd64 ~x86
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-Session/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Catalyst-Runtime-5.710.10 virtual/perl-Digest virtual/perl-File-Spec virtual/perl-File-Temp dev-perl/MRO-Compat >=dev-perl/Moose-0.760.0 >=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.8.10 dev-perl/Object-Signature >=virtual/perl-Test-Simple-0.88 >=virtual/perl-Tie-RefHash-1.340.0 >=dev-perl/namespace-clean-0.100.0 >=dev-lang/perl-5.8.0 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Catalyst-Plugin-Session-0.37.tar.gz
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	unpacker	1ca344bd9b922a7f8084a3fa02933b79
+_md5_=e0067232ced3f8b433e242223b646b62

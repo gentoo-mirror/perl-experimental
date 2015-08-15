@@ -1,13 +1,13 @@
-_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	eutils	351a78113be5b393c09a2c948701ad36	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
-_md5_=6fb2b01c9c929623b0745aa64fc4600d
-SLOT=0
 DEFINED_PHASES=compile configure install prepare test unpack
-EAPI=5
 DEPEND=perl-dbi? ( dev-perl/DBI ) sqlite? ( dev-perl/DBD-SQLite ) dbixclass? ( dev-perl/DBIx-Class ) schemaloader? ( dev-perl/DBIx-Class-Schema-Loader ) sqlt? ( dev-perl/SQL-Translator ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=A glimpse at an Enlightened Perl (DB Development)
-LICENSE=|| ( Artistic GPL-1+ )
-IUSE=+perl-dbi +sqlite +dbixclass +schemaloader +sqlt
-SRC_URI=mirror://cpan/authors/id/A/AP/APEIRON/Task-Kensho-DBDev-0.28.tar.gz
-KEYWORDS=~amd64 ~x86
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Task-Kensho-DBDev/
+IUSE=+perl-dbi +sqlite +dbixclass +schemaloader +sqlt
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=perl-dbi? ( dev-perl/DBI ) sqlite? ( dev-perl/DBD-SQLite ) dbixclass? ( dev-perl/DBIx-Class ) schemaloader? ( dev-perl/DBIx-Class-Schema-Loader ) sqlt? ( dev-perl/SQL-Translator ) dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AP/APEIRON/Task-Kensho-DBDev-0.28.tar.gz
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	unpacker	1ca344bd9b922a7f8084a3fa02933b79
+_md5_=6fb2b01c9c929623b0745aa64fc4600d

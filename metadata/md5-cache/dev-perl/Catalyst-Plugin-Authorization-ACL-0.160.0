@@ -1,13 +1,13 @@
-_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	eutils	351a78113be5b393c09a2c948701ad36	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
-_md5_=a9e0c8d648842f05d77ab3504ef8d71e
-SLOT=0
 DEFINED_PHASES=compile configure install prepare test unpack
-EAPI=5
 DEPEND=virtual/perl-Carp >=dev-perl/Catalyst-Runtime-5.800.130 dev-perl/Class-Throwable virtual/perl-Exporter virtual/perl-Scalar-List-Utils dev-perl/Moose dev-perl/MRO-Compat dev-perl/namespace-autoclean dev-perl/Tree-Simple dev-perl/Tree-Simple-VisitorFactory >=virtual/perl-ExtUtils-MakeMaker-6.300.0 test? ( virtual/perl-Test-Simple dev-perl/Catalyst-Plugin-Authentication dev-perl/Catalyst-Plugin-Authorization-Roles dev-perl/Catalyst-Plugin-Session dev-perl/Catalyst-Plugin-Session-State-Cookie virtual/perl-File-Spec virtual/perl-IO dev-perl/Test-WWW-Mechanize-Catalyst ) dev-lang/perl:=[-build(-)]
 DESCRIPTION=ACL support for Catalyst applications
-LICENSE=|| ( Artistic GPL-1+ )
-IUSE=test
-SRC_URI=mirror://cpan/authors/id/R/RK/RKITOVER/Catalyst-Plugin-Authorization-ACL-0.16.tar.gz
-KEYWORDS=~amd64 ~x86
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-Authorization-ACL/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=virtual/perl-Carp >=dev-perl/Catalyst-Runtime-5.800.130 dev-perl/Class-Throwable virtual/perl-Exporter virtual/perl-Scalar-List-Utils dev-perl/Moose dev-perl/MRO-Compat dev-perl/namespace-autoclean dev-perl/Tree-Simple dev-perl/Tree-Simple-VisitorFactory dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RK/RKITOVER/Catalyst-Plugin-Authorization-ACL-0.16.tar.gz
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	unpacker	1ca344bd9b922a7f8084a3fa02933b79
+_md5_=a9e0c8d648842f05d77ab3504ef8d71e

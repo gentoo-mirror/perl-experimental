@@ -1,12 +1,12 @@
-_eclasses_=perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	eutils	351a78113be5b393c09a2c948701ad36	perl-module	f1f0aafcb437d7e36c43e33b1c30c74
-_md5_=29062742cd7626ef4c9fb3d0be44ff15
-SLOT=0
 DEFINED_PHASES=compile configure install prepare test unpack
-EAPI=5
 DEPEND=virtual/perl-ExtUtils-MakeMaker virtual/perl-ExtUtils-MakeMaker >=virtual/perl-File-Spec-0.84 >=dev-perl/HTML-Parser-3.450.0 >=dev-perl/HTML-Tagset-3.200.0 >=dev-perl/Lingua-Stem-0.810.0 >=virtual/perl-Memoize-1.01 >=dev-perl/Memoize-ExpireLRU-0.550.0 >=virtual/perl-Storable-2.10 >=dev-lang/perl-5.8.1 dev-lang/perl:=[-build(-)]
 DESCRIPTION=Part-of-speech tagger for English natural language processing.
-LICENSE=GPL-3
-SRC_URI=mirror://cpan/authors/id/A/AC/ACOBURN/Lingua-EN-Tagger-0.23.tar.gz
-KEYWORDS=~amd64 ~x86
+EAPI=5
 HOMEPAGE=http://search.cpan.org/dist/Lingua-EN-Tagger/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
 RDEPEND=>=virtual/perl-File-Spec-0.84 >=dev-perl/HTML-Parser-3.450.0 >=dev-perl/HTML-Tagset-3.200.0 >=dev-perl/Lingua-Stem-0.810.0 >=virtual/perl-Memoize-1.01 >=dev-perl/Memoize-ExpireLRU-0.550.0 >=virtual/perl-Storable-2.10 >=dev-lang/perl-5.8.1 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AC/ACOBURN/Lingua-EN-Tagger-0.23.tar.gz
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	unpacker	1ca344bd9b922a7f8084a3fa02933b79
+_md5_=29062742cd7626ef4c9fb3d0be44ff15
