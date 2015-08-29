@@ -452,7 +452,7 @@ dev-perl/List-Pairwise 1.30.0: map/grep arrays and hashes pairwise
 dev-perl/Locale-Codes 3.250.0: a distribution of modules to handle locale codes
 dev-perl/Locale-Currency-Format 1.300.0-r1: Perl functions for formatting monetary values
 dev-perl/Log-Any-Adapter 0.110.0: Tell Log::Any where to send its logs
-dev-perl/Log-Any-Adapter-Dispatch 0.60.0: Adapter to use Log::Dispatch with Log::Any
+dev-perl/Log-Any-Adapter-Dispatch 0.60.0-r1: Adapter to use Log::Dispatch with Log::Any
 dev-perl/Log-Contextual 0.5.3: Simple logging interface with a contextual log
 dev-perl/Log-Dispatch-Array 1.3.0: log events to an array (reference)
 dev-perl/Log-Dispatch-Config 1.40.0-r1: Log4j for Perl
