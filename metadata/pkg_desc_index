@@ -284,7 +284,6 @@ dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent 0.6.0-r1: Ensure Changes has c
 dev-perl/Dist-Zilla-Plugin-CheckExtraTests 0.11.0: check xt tests before release
 dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed 0.8.0: prevent a release if you have prereqs not found on CPAN
 dev-perl/Dist-Zilla-Plugin-Config-Git 0.920.0: Plugin configuration containing settings for a Git repo
-dev-perl/Dist-Zilla-Plugin-DistManifestTests 1.101.420-r1: Release tests for the manifest
 dev-perl/Dist-Zilla-Plugin-EOLTests 0.20.0-r1: Release tests making sure correct line endings are used
 dev-perl/Dist-Zilla-Plugin-Git 2.30.0: update your git repository after release
 dev-perl/Dist-Zilla-Plugin-GithubMeta 0.420.0: Automatically include GitHub meta information in META.yml
@@ -305,6 +304,7 @@ dev-perl/Dist-Zilla-Plugin-Repository 0.200.0: Automatically sets repository URL
 dev-perl/Dist-Zilla-Plugin-TaskWeaver 0.101.626: a PodWeaver plugin used to build Task distributions
 dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes 0.8.0: release tests for your changelog
 dev-perl/Dist-Zilla-Plugin-Test-Compile 2.53.0: Common tests to check syntax of your modules, only using core modules
+dev-perl/Dist-Zilla-Plugin-Test-DistManifest 2.0.5: Release tests for the manifest
 dev-perl/Dist-Zilla-Plugin-Test-Kwalitee 2.110.0: Release tests for kwalitee
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion 2.0.6: Release tests for minimum required versions
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic 2.112.410-r1: tests to check your code against best practices
@@ -819,7 +819,7 @@ dev-perl/autobox-Core 1.280.0: Provide core functions to autoboxed scalars, arra
 dev-perl/autobox-List-Util 20090629.0.0-r1: bring the List::Util functions to autobox
 dev-perl/autobox-dump 20090426.174.600-r1: human/perl readable strings from the results of an EXPR
 dev-perl/constant-tiny 1.10.0: Perl pragma to declare constants
-dev-perl/cpan-outdated 0.240.0 0.290.0: detect outdated CPAN modules in your environment
+dev-perl/cpan-outdated 0.290.0: detect outdated CPAN modules in your environment
 dev-perl/experimental 0.7.0: Experimental features made easy
 dev-perl/iCal-Parser 1.200.0: Parse iCalendar files into a data structure
 dev-perl/mocked 0.90.0: use mocked libraries in unit tests
