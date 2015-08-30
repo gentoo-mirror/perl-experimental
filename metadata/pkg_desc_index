@@ -295,7 +295,6 @@ dev-perl/Dist-Zilla-Plugin-MinimumPerl 1.3.0-r1: Detects the minimum version of 
 dev-perl/Dist-Zilla-Plugin-ModuleInstall 0.20.0.0: Build Module::Install based Distributions with Dist::Zilla
 dev-perl/Dist-Zilla-Plugin-PerlTidy 0.160.0: PerlTidy in Dist::Zilla
 dev-perl/Dist-Zilla-Plugin-PodWeaver 4.6.0: do horrible things to POD, producing better docs
-dev-perl/Dist-Zilla-Plugin-PortabilityTests 1.111.840-r1: Release tests for portability
 dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod 0.120.120-r1: Automatically convert POD to a README in any format for Dist::Zilla
 dev-perl/Dist-Zilla-Plugin-ReadmeFromPod 0.210.0: Automatically convert POD to a README for Dist::Zilla
 dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny 1.80.0: reports dependency versions during testing
@@ -308,6 +307,7 @@ dev-perl/Dist-Zilla-Plugin-Test-EOL 0.180.0: Author tests making sure correct li
 dev-perl/Dist-Zilla-Plugin-Test-Kwalitee 2.110.0: Release tests for kwalitee
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion 2.0.6: Release tests for minimum required versions
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic 2.112.410-r1: tests to check your code against best practices
+dev-perl/Dist-Zilla-Plugin-Test-Portability 2.0.6: Release tests for portability
 dev-perl/Dist-Zilla-Plugin-Twitter 0.26.0: Twitter when you release with Dist::Zilla
 dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL 1.6.0-r1 1.7.3-r1: BeLike::KENTNL when you build your distributions.
 dev-perl/Dist-Zilla-PluginBundle-RJBS 1.17.0: BeLike::RJBS when you build your dists
