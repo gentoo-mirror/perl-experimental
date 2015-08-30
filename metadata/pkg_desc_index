@@ -284,7 +284,6 @@ dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent 0.6.0-r1: Ensure Changes has c
 dev-perl/Dist-Zilla-Plugin-CheckExtraTests 0.11.0: check xt tests before release
 dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed 0.8.0: prevent a release if you have prereqs not found on CPAN
 dev-perl/Dist-Zilla-Plugin-Config-Git 0.920.0: Plugin configuration containing settings for a Git repo
-dev-perl/Dist-Zilla-Plugin-EOLTests 0.20.0-r1: Release tests making sure correct line endings are used
 dev-perl/Dist-Zilla-Plugin-Git 2.30.0: update your git repository after release
 dev-perl/Dist-Zilla-Plugin-GithubMeta 0.420.0: Automatically include GitHub meta information in META.yml
 dev-perl/Dist-Zilla-Plugin-MetaData-BuiltWith 0.40.0.0: Report what versions of things your distribution was built against
@@ -305,11 +304,12 @@ dev-perl/Dist-Zilla-Plugin-TaskWeaver 0.101.626: a PodWeaver plugin used to buil
 dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes 0.8.0: release tests for your changelog
 dev-perl/Dist-Zilla-Plugin-Test-Compile 2.53.0: Common tests to check syntax of your modules, only using core modules
 dev-perl/Dist-Zilla-Plugin-Test-DistManifest 2.0.5: Release tests for the manifest
+dev-perl/Dist-Zilla-Plugin-Test-EOL 0.180.0: Author tests making sure correct line endings are used
 dev-perl/Dist-Zilla-Plugin-Test-Kwalitee 2.110.0: Release tests for kwalitee
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion 2.0.6: Release tests for minimum required versions
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic 2.112.410-r1: tests to check your code against best practices
 dev-perl/Dist-Zilla-Plugin-Twitter 0.26.0: Twitter when you release with Dist::Zilla
-dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL 1.6.0 1.7.3: BeLike::KENTNL when you build your distributions.
+dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL 1.6.0-r1 1.7.3-r1: BeLike::KENTNL when you build your distributions.
 dev-perl/Dist-Zilla-PluginBundle-RJBS 1.17.0: BeLike::RJBS when you build your dists
 dev-perl/Dist-Zilla-Role-Bootstrap 1.0.1: Shared logic for bootstrap things.
 dev-perl/Dist-Zilla-Role-Tempdir 0.10.537.220: Shell Out and collect the result in a DZ plug-in.
