@@ -11,7 +11,6 @@ dev-perl/Apache-Htpasswd 1.900.0: Manage Unix crypt-style password file.
 dev-perl/Apache-LogRegex 1.700.0: Parse a line from an Apache logfile into a hash
 dev-perl/App-Cache 0.370.0: Easy application-level caching
 dev-perl/App-Cmd 0.327.0: write command line apps with less suffering
-dev-perl/App-cpanoutdated 0.240.0: detect outdated CPAN modules in your environment
 dev-perl/App-mymeta_requires 0.5.0: Extract module requirements from MYMETA files
 dev-perl/Archive-Any-Lite 0.100.0: simple CPAN package extractor
 dev-perl/Archive-Peek 0.350.0-r1: Peek into archives without extracting them
@@ -820,6 +819,7 @@ dev-perl/autobox-Core 1.280.0: Provide core functions to autoboxed scalars, arra
 dev-perl/autobox-List-Util 20090629.0.0-r1: bring the List::Util functions to autobox
 dev-perl/autobox-dump 20090426.174.600-r1: human/perl readable strings from the results of an EXPR
 dev-perl/constant-tiny 1.10.0: Perl pragma to declare constants
+dev-perl/cpan-outdated 0.240.0 0.290.0: detect outdated CPAN modules in your environment
 dev-perl/experimental 0.7.0: Experimental features made easy
 dev-perl/iCal-Parser 1.200.0: Parse iCalendar files into a data structure
 dev-perl/mocked 0.90.0: use mocked libraries in unit tests
