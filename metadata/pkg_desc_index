@@ -589,7 +589,7 @@ dev-perl/PPI-XS 0.902.0: (Minor) XS acceleration for PPI
 dev-perl/PSGI 1.101.0-r1: Perl Web Server Gateway Interface Specification
 dev-perl/Package-Generator 1.106.0: generate new packages quickly and easily
 dev-perl/Package-Pkg 0.2.0-r1: Handy package munging utilities
-dev-perl/Padre-Plugin-Autoformat 1.220.0-r1: reformat your text within Padre
+dev-perl/Padre-Plugin-Autoformat 1.220.0-r2: reformat your text within Padre
 dev-perl/Padre-Plugin-PerlCritic 0.120.0: Analyze perl files with Perl::Critic
 dev-perl/Padre-Plugin-PerlTidy 0.220.0-r1: Format perl files using Perl::Tidy
 dev-perl/Padre-Plugin-Vi 0.23.0-r1: vi keyboard for Padre
