@@ -410,7 +410,6 @@ dev-perl/Hash-StoredIterator 0.7.0: Functions for accessing a hashes internal it
 dev-perl/Hash-Util-FieldHash-Compat 0.80.0: Use Hash::Util::FieldHash or ties, depending on availability.
 dev-perl/IO-Async 0.540.0 0.560.0: Asynchronous event-driven programming
 dev-perl/IO-Interactive 0.0.6-r1: Utilities for interactive I/O
-dev-perl/IO-Stty 0.30.0-r1: Change and print terminal line settings
 dev-perl/IO-TieCombine 1.2.0-r1: produce tied (and other) separate but combined variables
 dev-perl/IPC-Run-Fused 0.40.1.0: Capture Stdout/Stderr simultaneously as if it were one stream, painlessly.
 dev-perl/IPTables-ChainMgr 1.200.0-r1: Perl extension for manipulating iptables and ip6tables policies
