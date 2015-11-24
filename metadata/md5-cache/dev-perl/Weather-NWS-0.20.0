@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-perl/Class-Std dev-perl/Readonly dev-perl/SOAP-DateTime dev-perl/libwww-perl virtual/perl-ExtUtils-MakeMaker test? ( >=dev-perl/Test-Pod-1.140.0 >=dev-perl/Test-Pod-Coverage-1.40.0 virtual/perl-Test-Simple ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Object interface to the NWS Web services
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/Weather-NWS/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=dev-perl/Class-Std dev-perl/Readonly dev-perl/SOAP-DateTime dev-perl/libwww-perl dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JM/JMCADA/weather/Weather-NWS-0.02.tar.gz
+_eclass_exported_funcs=src_unpack:perl-module src_prepare:perl-module src_configure:perl-module src_compile:perl-module src_test:perl-module src_install:perl-module
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813
+_md5_=7bb3870e749e1ace81fff8dd9590c2c3

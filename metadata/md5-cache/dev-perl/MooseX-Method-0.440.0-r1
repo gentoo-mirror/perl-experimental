@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-perl/Moose-0.220.0 >=dev-perl/Moose-1.990.0 >=dev-perl/HTML-Template-Pro-0.650.0 >=virtual/perl-Scalar-List-Utils-1.14 >=dev-perl/Sub-Name-0.02 test? ( >=virtual/perl-Test-Simple-0.47 >=dev-perl/Test-Exception-0.21 >=dev-perl/Test-Pod-1.26 ) dev-lang/perl:=[-build(-)]
+DESCRIPTION=Method declaration with type checking
+EAPI=5
+HOMEPAGE=http://search.cpan.org/dist/MooseX-Method/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-1+ )
+RDEPEND=>=dev-perl/Moose-0.220.0 >=dev-perl/Moose-1.990.0 >=dev-perl/HTML-Template-Pro-0.650.0 >=virtual/perl-Scalar-List-Utils-1.14 >=dev-perl/Sub-Name-0.02 dev-lang/perl:=[-build(-)]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GP/GPHAT/MooseX-Method-0.44.tar.gz
+_eclass_exported_funcs=src_unpack:perl-module src_prepare:perl-module src_configure:perl-module src_compile:perl-module src_test:perl-module src_install:perl-module
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813
+_md5_=b12870a525d06f7a53d9ff9ad4dedeeb
