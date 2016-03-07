@@ -6,11 +6,11 @@
 		<name>Gentoo Perl Project</name>
 	</maintainer>
 	<maintainer type="person">
-		<email>kentfredric@gmail.com</email>
-		<name>Kent Fredric</name>
+		<email>pavel.a.denisov@gmail.com</email>
+		<name>Pavel Denisov</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="cpan">Term-ProgressBar-Quiet</remote-id>
-		<remote-id type="cpan-module">Term::ProgressBar::Quiet</remote-id>
+		<remote-id type="cpan">Data-Munge</remote-id>
+		<remote-id type="cpan-module">Data::Munge</remote-id>
 	</upstream>
 </pkgmetadata>

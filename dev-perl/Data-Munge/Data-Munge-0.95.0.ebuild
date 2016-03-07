@@ -1,23 +1,26 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
+
 EAPI=5
-MODULE_AUTHOR=EVDB
-MODULE_VERSION=0.03
+
+MODULE_AUTHOR=MAUKE
+MODULE_VERSION=0.095
 inherit perl-module
 
-DESCRIPTION="simpler progress bars"
+DESCRIPTION="various utility functions"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-PERL_RM_FILES=(
-	t/pod-coverage.t
-	t/pod.t
-)
+
 RDEPEND="
-	dev-perl/Term-ProgressBar-Quiet
+	virtual/perl-Exporter
 "
+
 DEPEND="
 	${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-ExtUtils-MakeMaker-6.480.0
+	virtual/perl-Test-Simple
+	dev-perl/Test-Warnings
 "
