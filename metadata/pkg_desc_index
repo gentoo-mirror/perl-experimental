@@ -728,7 +728,6 @@ dev-perl/Test-Class-Most 0.80.0: Test Classes the easy way
 dev-perl/Test-Compile 0.240.0: Check whether Perl files compile correctly.
 dev-perl/Test-Corpus-Audio-MPD 1.120.990-r1: automate launching of fake mdp for testing purposes
 dev-perl/Test-Deep-JSON 0.30.0: Compare JSON with Test::Deep
-dev-perl/Test-EOL 1.500.0-r1: Check the correct line endings in your project
 dev-perl/Test-Exception-LessClever 0.6.0: Test::Exception simplified
 dev-perl/Test-Expect 0.310.0-r1: Automated driving and testing of terminal-based programs
 dev-perl/Test-File 1.410.0: Check file attributes
@@ -826,7 +825,6 @@ dev-perl/true 0.180.0-r1: automatically return a true value when a file is requi
 dev-perl/utf8-all 0.16.0: turn on Unicode - all of it
 perl-core/Env 1.40.0: perl module that imports environment variables as scalars or arrays
 perl-core/IPC-SysV 2.30.0-r1 2.40.0: System V IPC constants and system calls
-perl-core/Unicode-Normalize 1.160.0 1.170.0: Unicode Normalization Forms
 virtual/perl-Devel-SelfStubber 1.50.0-r6: Virtual for Devel-SelfStubber
 virtual/perl-File-Fetch 0.480.0-r1: Virtual for File-Fetch
 virtual/perl-IPC-SysV 2.40.0-r2: Virtual for perl-core/IPC-SysV
@@ -838,5 +836,4 @@ virtual/perl-Pod-Usage 1.630.0 1.640.0: Virtual for Pod-Usage
 virtual/perl-Scalar-Util 1.380.0 1.410.0: Virtual for Scalar-Util
 virtual/perl-SelfLoader 1.210.0-r1 1.220.0: Virtual for SelfLoader
 virtual/perl-Sub-Util 1.410.0: Virtual for Sub-Util
-virtual/perl-Unicode-Normalize 1.170.0 1.180.0: Virtual for Unicode-Normalize
 virtual/perl-constant 1.310.0 1.330.0: Virtual for constant
