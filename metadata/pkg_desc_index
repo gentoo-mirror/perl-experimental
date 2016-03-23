@@ -213,7 +213,6 @@ dev-perl/DBIx-Class-Tree 0.30.30-r1: Manipulate and anaylze tree structured data
 dev-perl/DBIx-Class-UUIDColumns 0.20.60-r1: Implicit uuid columns
 dev-perl/DBIx-Class-Validation 0.20.50-r1: Validate all data before submitting to your database.
 dev-perl/DBIx-Connector 0.530.0: Fast, safe DBI connection and transaction management
-dev-perl/DBIx-Simple 1.350.0: Easy-to-use OO interface to DBI
 dev-perl/Daemon-Control 0.1.6: Create init scripts in Perl
 dev-perl/Dancer 1.312.100 1.320.200: lightweight yet powerful web application framework
 dev-perl/Dancer-Plugin-Database-Core 0.60.0 0.80.0 0.130.0: Shared core for D1 and D2 Database plugins
@@ -591,7 +590,6 @@ dev-perl/Padre-Plugin-PerlTidy 0.220.0-r1: Format perl files using Perl::Tidy
 dev-perl/Padre-Plugin-Vi 0.23.0-r1: vi keyboard for Padre
 dev-perl/Padre-Plugin-XML 0.100.0: Padre and XML
 dev-perl/Paginator-Lite 2.0.7: A simple paginator
-dev-perl/Parallel-ForkManager 1.30.0: A simple parallel processing fork manager
 dev-perl/Parallel-Iterator 1.0.0-r1: Simple parallel execution
 dev-perl/Parallel-Runner 0.12.0 0.13.0: An object to manage running things in parallel processes.
 dev-perl/Parse-CPAN-Distributions 0.140.0: Provides an index for current CPAN distributions
@@ -622,7 +620,6 @@ dev-perl/Pod-Elemental-PerlMunger 0.200.2: a thing that takes a string of Perl a
 dev-perl/Pod-Elemental-Transformer-List 0.102.0: transform :list regions into =over/=back to save typing
 dev-perl/Pod-Elemental-Transformer-WikiDoc 0.93.2-r1: a transformer to replace "wikidoc" data regions with Pod5 elements
 dev-perl/Pod-Eventual 0.94.1: read a POD document as a series of trivial events
-dev-perl/Pod-LaTeX 0.610.0-r1: Convert Pod data to formatted Latex
 dev-perl/Pod-Markdown 1.322.0-r1: Convert POD to Markdown
 dev-perl/Pod-Plainer 1.30.0-r2: Perl extension for converting Pod to old-style Pod
 dev-perl/Pod-ProjectDocs 0.400.0-r2: generates CPAN like pod pages
