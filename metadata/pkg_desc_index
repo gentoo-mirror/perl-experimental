@@ -227,7 +227,6 @@ dev-perl/Data-Currency 0.60.0: Container class for currency conversion/formattin
 dev-perl/Data-DPath 0.530.0: DPath is not XPath!
 dev-perl/Data-Dumper-Names 0.30.0: See your data in the nude
 dev-perl/Data-Entropy 0.7.0-r1: entropy (randomness) management
-dev-perl/Data-Float 0.12.0-r1: details of the floating point data type
 dev-perl/Data-FormValidator-Constraints-DateTime 1.110.0: D::FV constraints for dates and times
 dev-perl/Data-Handle 1.0.0: A Very simple interface to the __DATA__ file handle.
 dev-perl/Data-ICal-DateTime 0.700.0: convenience methods for using Data::ICal with DateTime
@@ -457,7 +456,6 @@ dev-perl/MKDoc-XML 0.750.0: The MKDoc XML Toolkit
 dev-perl/Mason 2.200.0-r1: Powerful, high-performance templating for the web and beyond
 dev-perl/Math-BaseCnv 1.8-r1: fast functions to CoNVert between number Bases
 dev-perl/Math-Combinatorics 0.90.0: Perform combinations and permutations on lists
-dev-perl/Math-Factor-XS 0.400.0-r1: Factorize numbers and calculate matching multiplications
 dev-perl/MemHandle 0.70.0-r1: supply memory-based FILEHANDLE methods
 dev-perl/Memoize-ExpireLRU 0.550.0-r1: Expiry plug-in for Memoize that adds LRU cache expiration
 dev-perl/Meta-Builder 0.3.0-r1: Tools for creating Meta objects to track custom metrics
@@ -561,7 +559,6 @@ dev-perl/Net-SSH 0.90.0: Perl extension for secure shell
 dev-perl/Net-Server-SS-PreFork 0.50.0: a hot-deployable variant of Net::Server::PreFork
 dev-perl/Net-UPS 0.150.0: Implementation of UPS Online Tools API in Perl
 dev-perl/Number-Bytes-Human 0.90.0: Convert byte count to human readable format
-dev-perl/Number-Fraction 2.0.0: Perl extension to model fractions
 dev-perl/Number-Tolerant 1.706.0-r1: tolerance ranges for inexact numbers
 dev-perl/Object-Accessor 0.460.0: Per object accessors
 dev-perl/Object-ID 0.1.2-r1: A unique identifier for any object
@@ -617,7 +614,6 @@ dev-perl/Pod-Elemental-PerlMunger 0.200.2: a thing that takes a string of Perl a
 dev-perl/Pod-Elemental-Transformer-List 0.102.0: transform :list regions into =over/=back to save typing
 dev-perl/Pod-Elemental-Transformer-WikiDoc 0.93.2-r1: a transformer to replace "wikidoc" data regions with Pod5 elements
 dev-perl/Pod-Eventual 0.94.1: read a POD document as a series of trivial events
-dev-perl/Pod-Markdown 1.322.0-r1: Convert POD to Markdown
 dev-perl/Pod-Plainer 1.30.0-r2: Perl extension for converting Pod to old-style Pod
 dev-perl/Pod-ProjectDocs 0.400.0-r2: generates CPAN like pod pages
 dev-perl/Pod-PseudoPod 0.180.0-r1: A framework for parsing PseudoPod
