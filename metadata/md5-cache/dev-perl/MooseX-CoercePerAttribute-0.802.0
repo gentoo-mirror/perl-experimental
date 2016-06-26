@@ -9,5 +9,5 @@ RDEPEND=virtual/perl-Data-Dumper dev-perl/Moose dev-perl/Moose dev-perl/Moose de
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MR/MRF/MooseX-CoercePerAttribute-0.802.tar.gz
 _eclass_exported_funcs=src_unpack:perl-module src_prepare:perl-module src_configure:perl-module src_compile:perl-module src_test:perl-module src_install:perl-module
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	c9d9187f4caa4026a0ceddd8dfceb3c1	unpacker	45d07319df5f40ee6af58418b0f930be
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	bfd09e8e66991dd5ce9e57610d8d1e6c	unpacker	45d07319df5f40ee6af58418b0f930be
 _md5_=b5950a5e4354a2ad4b6e8addc22a4be9
