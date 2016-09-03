@@ -10,5 +10,5 @@ RDEPEND=>=app-editors/padre-0.570.0 dev-perl/Text-Autoformat virtual/perl-File-S
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AZ/AZAWAWI/Padre-Plugin-Autoformat-1.22.tar.gz
 _eclass_exported_funcs=src_unpack:perl-module src_prepare:perl-module src_configure:perl-module src_compile:perl-module src_test:- src_install:perl-module
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	d062ae4ba2fc40a19c11de2ad89b6616	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	unpacker	45d07319df5f40ee6af58418b0f930be	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	perl-functions	663d8fa52d51ee8b24c7b621ec3d5008	perl-module	0f1f0aafcb437d7e36c43e33b1c30c74	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	unpacker	45d07319df5f40ee6af58418b0f930be	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
 _md5_=eac0bc80de7bdaac5daff5685d1dabde
