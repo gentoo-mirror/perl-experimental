@@ -315,7 +315,6 @@ dev-perl/Excel-Template-Plus 0.50.0: An extension to the Excel::Template module
 dev-perl/Exception-Class-TryCatch 1.120.0-r1: Syntactic try/catch sugar for use with Exception::Class
 dev-perl/Expect-Simple 0.40.0: wrapper around the Expect module
 dev-perl/Exporter-Declare 0.112.0 0.113.0: Exporting done right
-dev-perl/ExtUtils-LibBuilder 0.40.0-r1: A tool to build C libraries
 dev-perl/ExtUtils-MakeMaker-CPANfile 0.60.0: cpanfile support for EUMM
 dev-perl/Fennec 2.16.0: A testers toolbox, and best friend
 dev-perl/Fennec-Lite 0.4.0-r2: Minimalist Fennec, the commonly used bits.
@@ -591,7 +590,6 @@ dev-perl/Regexp-Grammars 1.39.0: Add grammatical parsing features to Perl 5.10 r
 dev-perl/Regexp-Grammars-Common-String 1.0.1: Some basic String parsing Rules for Regexp::Grammars
 dev-perl/Return-MultiLevel 0.30.0 0.40.0: return across multiple call levels
 dev-perl/Role-HasPayload 0.6.0: something that carries a payload
-dev-perl/Role-Identifiable 0.7.0: a thing with a list of tags
 dev-perl/SOAP-DateTime 0.20.0: Support for converting dates to xsd:dateTime format
 dev-perl/SOCKS 0.30.0: A SOCKS Client Class
 dev-perl/SVN-Notify 2.840.0: Subversion activity notification
@@ -601,8 +599,6 @@ dev-perl/Search-GIN 0.110.0: Generalized Inverted Indexing
 dev-perl/Search-GIN-Extract-AttributeIndexes 1.0.2: Automatically collect index metadata from MooseX::AttributeIndexes consuming models.
 dev-perl/Search-GIN-Extract-ClassMap 0.10.608.170: Delegate Extraction based on class.
 dev-perl/Search-Sitemap 2.130.0-r1: Perl extension for managing Search Engine Sitemaps
-dev-perl/Sereal-Decoder 3.1.0 3.14.0: Fast, compact, powerful binary deserialization
-dev-perl/Sereal-Encoder 3.1.0 3.14.0: Fast, compact, powerful binary serialization
 dev-perl/Session-Storage-Secure 0.10.0: Encrypted, expiring, compressed, serialized session data with integrity
 dev-perl/Smart-Comments 1.0.4-r1: Comments that do more than just sit there
 dev-perl/Software-License-CCpack 1.110.0: Software::License pack for Creative Commons' licenses
