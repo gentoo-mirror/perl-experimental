@@ -18,7 +18,7 @@ dev-perl/Async-MergePoint 0.40.0: resynchronise diverged control flow
 dev-perl/Audio-Extract-PCM 0.40.0: Extract PCM data from audio files
 dev-perl/Audio-MPD 2.0.0: class to talk to MPD (Music Player Daemon) servers
 dev-perl/Audio-MPD-Common 2.2.0: common helper classes for mpd
-dev-perl/Audio-Ofa 1.10.0-r1: Perl interface to libofa, an Acoustig Fingerprinting library
+dev-perl/Audio-Ofa 1.10.0-r2: Perl interface to libofa, an Acoustig Fingerprinting library
 dev-perl/Audio-Ofa-Util 0.40.0-r1: Retrieve audio fingerprints and metadata for unknown audio files
 dev-perl/Audio-SndFile 0.90.0-r1: Portable reading and writing of sound files
 dev-perl/Authen-DecHpwd 2.6.0-r1: DEC VMS password hashing
@@ -90,7 +90,6 @@ dev-perl/Catalyst-Controller-RequestToken 0.70.0-r3: Handling transaction tokens
 dev-perl/Catalyst-Devel 1.390.0-r1: Catalyst Development Tools
 dev-perl/Catalyst-DispatchType-Regex 5.900.320: Regex DispatchType
 dev-perl/Catalyst-Engine-Apache 1.160.0: Catalyst Apache Engines
-dev-perl/Catalyst-Engine-PSGI 0.130.0-r1: PSGI engine for Catalyst
 dev-perl/Catalyst-Manual 5.900.700: The Catalyst developer's manual
 dev-perl/Catalyst-Model-Adaptor 0.100.0: helper for the incredibly lazy
 dev-perl/Catalyst-Model-DBI 0.320.0: Helper for DBI Models
@@ -126,7 +125,7 @@ dev-perl/Catalyst-Plugin-MortalForward 0.10.0: Make forward() to throw exception
 dev-perl/Catalyst-Plugin-PageCache 0.310.0-r2: Cache the output of entire pages
 dev-perl/Catalyst-Plugin-Params-Demoronize 1.140.0: Convert common UTF-8 and Windows-1252 characters to their ASCII equivalents
 dev-perl/Catalyst-Plugin-Prototype 1.330.0: Plugin for Prototype
-dev-perl/Catalyst-Plugin-Scheduler 0.100.0: Schedule events to run in a cron-like fashion
+dev-perl/Catalyst-Plugin-Scheduler 0.100.0-r1: Schedule events to run in a cron-like fashion
 dev-perl/Catalyst-Plugin-Session 0.370.0-r1: Generic Session plugin - connect server side storage and client side state to maintain session data
 dev-perl/Catalyst-Plugin-Session-DynamicExpiry 0.40.0: per-session custom expiry times
 dev-perl/Catalyst-Plugin-Session-PerUser 0.50.0-r1: Per user sessions (instead of per browser sessions).
@@ -359,7 +358,7 @@ dev-perl/Git-Wrapper 0.29.0: Wrap git(7) command-line interface
 dev-perl/Gitalist 0.5.1-r1: A modern git web viewer
 dev-perl/Gtk3 0.9.0: Perl interface to the 3.x series of the gtk+ toolkit
 dev-perl/HTML-Defang 1.40.0: Cleans HTML as well as CSS of scripting and other executable contents, and neutralises XSS attacks.
-dev-perl/HTML-FormFu 2.10.0-r2: HTML Form Creation, Rendering and Validation Framework
+dev-perl/HTML-FormFu 2.10.0-r3: HTML Form Creation, Rendering and Validation Framework
 dev-perl/HTML-FormFu-Element-reCAPTCHA 1.0.0: "Are you human" tester!
 dev-perl/HTML-FormFu-Model-DBIC 0.90.100: Integrate HTML::FormFu with DBIx::Class
 dev-perl/HTML-FormHandler 0.400.570: HTML forms using Moose
@@ -424,7 +423,6 @@ dev-perl/List-Compare 0.530.0: Compare elements of two or more lists
 dev-perl/List-Pairwise 1.30.0: map/grep arrays and hashes pairwise
 dev-perl/Locale-Codes 3.250.0: a distribution of modules to handle locale codes
 dev-perl/Locale-Currency-Format 1.300.0-r1: Perl functions for formatting monetary values
-dev-perl/Log-Any-Adapter 0.110.0: Tell Log::Any where to send its logs
 dev-perl/Log-Any-Adapter-Dispatch 0.60.0-r1: Adapter to use Log::Dispatch with Log::Any
 dev-perl/Log-Contextual 0.5.3: Simple logging interface with a contextual log
 dev-perl/Log-Dispatch-Config 1.40.0-r1: Log4j for Perl
@@ -444,7 +442,7 @@ dev-perl/Mixin-ExtraFields 0.140.2: add extra stashes of data to your objects
 dev-perl/Mixin-ExtraFields-Param 0.21.0: make your class provide a familiar "param" method
 dev-perl/Mock-Quick 1.107.0: Quickly mock objects and classes, even temporarily replace them,
 dev-perl/ModPerl-VersionUtil 0.30.0-r1: Makes it easier to investigate your mod_perl version
-dev-perl/Module-CPANTS-Analyse 0.960.0-r1: Generate Kwalitee ratings for a distribution
+dev-perl/Module-CPANTS-Analyse 0.960.0-r2: Generate Kwalitee ratings for a distribution
 dev-perl/Module-CPANfile 1.100.0: Parse cpanfile
 dev-perl/Module-Compile-TT 0.20.0-r1: Preprocess Perl code with Template Toolkit and Module::Compile.
 dev-perl/Module-Data 0.6.0-r1: Introspect context information about modules in @INC
@@ -538,7 +536,7 @@ dev-perl/Ogg-Vorbis-Decoder 0.900.0-r1: An object-oriented Ogg Vorbis to decoder
 dev-perl/POE-Component-IRC 6.820.0: A fully event-driven IRC client module
 dev-perl/POE-Component-OSCAR 0.50.0: A POE Component for the Net::OSCAR module
 dev-perl/POE-Component-SSLify 1.8.0: Makes using SSL in the world of POE easy!
-dev-perl/POE-Component-Server-Syslog 1.200.0: Syslog services for POE
+dev-perl/POE-Component-Server-Syslog 1.200.0-r1: Syslog services for POE
 dev-perl/POE-Component-Syndicator 0.60.0-r1: A POE component base class which implements the Observer pattern
 dev-perl/POE-Filter-IRCD 2.420.0-r1: A POE-based parser for the IRC protocol.
 dev-perl/POE-Filter-XML 1.140.700: XML Parsing for the POE Framework
@@ -723,7 +721,6 @@ dev-perl/User 1.900.0: API for locating user information regardless of OS
 dev-perl/V 0.130.0-r1: Print version of the specified module(s).
 dev-perl/VCI 0.7.1-r1: A generic interface for interacting with various version control systems
 dev-perl/Version-Next 0.2.0: increment module version numbers simply and correctly
-dev-perl/WWW-CheckSite 0.20.0: Interface to an iterator that checks a website
 dev-perl/WWW-Facebook-API 0.4.18-r1: Perl interface to Facebook Platform API
 dev-perl/WWW-Mechanize-Cached 1.430.0: Cache response to be polite
 dev-perl/WWW-Mechanize-TreeBuilder 1.100.30-r1: This module combines WWW::Mechanize and HTML::TreeBuilder.
@@ -734,7 +731,7 @@ dev-perl/WWW-Search-PubMed 1.4.0: Search the NCBI PubMed abstract database.
 dev-perl/WWW-Shorten-Simple 0.10.0: Factory wrapper around WWW::Shorten to avoid imports
 dev-perl/Weather-NWS 0.20.0: Object interface to the NWS Web services
 dev-perl/Web-Scraper 0.370.0: Web Scraping Toolkit using HTML and CSS Selectors or XPath expressions
-dev-perl/X11-XCB 0.120.0: Perl bindings for libxcb
+dev-perl/X11-XCB 0.120.0-r1: Perl bindings for libxcb
 dev-perl/XML-Clean 1.60.0: Ensure, that *(HTML)* text pass throught an XML parser.
 dev-perl/XML-Descent 1.40.0: Recursive descent XML parsing
 dev-perl/XML-FeedPP 0.430.0-r1: Parse/write/merge/edit RSS/RDF/Atom syndication feeds
