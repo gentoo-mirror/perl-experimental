@@ -4,5 +4,4 @@ EAPI=5
 KEYWORDS=~amd64 ~x86
 RDEPEND=|| ( =dev-lang/perl-5.22* ~perl-core/constant-1.330.0 ) !<perl-core/constant-1.330.0 !>perl-core/constant-1.330.0
 SLOT=0
-_eclass_exported_funcs=-
 _md5_=2ca7e0b59e5cdf50d32203d9ec364712
