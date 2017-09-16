@@ -266,7 +266,7 @@ dev-perl/Dist-Zilla-Plugin-Authority 1.6.0-r1: Add the $AUTHORITY variable and m
 dev-perl/Dist-Zilla-Plugin-AutoVersion-Relative 0.30.0.20: Time-Relative versioning
 dev-perl/Dist-Zilla-Plugin-Bootstrap-lib 1.0.1: A minimal boot-strapping for Dist::Zilla Plug-ins.
 dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent 0.6.0-r1: Ensure Changes has content before releasing
-dev-perl/Dist-Zilla-Plugin-CheckExtraTests 0.11.0: check xt tests before release
+dev-perl/Dist-Zilla-Plugin-CheckExtraTests 0.11.0 0.29.0: check xt tests before release
 dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed 0.8.0: prevent a release if you have prereqs not found on CPAN
 dev-perl/Dist-Zilla-Plugin-GithubMeta 0.420.0: Automatically include GitHub meta information in META.yml
 dev-perl/Dist-Zilla-Plugin-MetaData-BuiltWith 0.40.0.0: Report what versions of things your distribution was built against
@@ -275,7 +275,7 @@ dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile 1.110.602.110: In the event not
 dev-perl/Dist-Zilla-Plugin-MinimumPerl 1.3.0-r1: Detects the minimum version of Perl required for your dist
 dev-perl/Dist-Zilla-Plugin-ModuleInstall 0.20.0.0: Build Module::Install based Distributions with Dist::Zilla
 dev-perl/Dist-Zilla-Plugin-PerlTidy 0.160.0: PerlTidy in Dist::Zilla
-dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod 0.120.120-r1: Automatically convert POD to a README in any format for Dist::Zilla
+dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod 0.120.120-r1 0.163.250: Automatically convert POD to a README in any format for Dist::Zilla
 dev-perl/Dist-Zilla-Plugin-ReadmeFromPod 0.210.0: Automatically convert POD to a README for Dist::Zilla
 dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny 1.80.0: reports dependency versions during testing
 dev-perl/Dist-Zilla-Plugin-Repository 0.200.0: Automatically sets repository URL from svn/svk/Git checkout for Dist::Zilla
@@ -290,6 +290,7 @@ dev-perl/Dist-Zilla-Plugin-Twitter 0.26.0: Twitter when you release with Dist::Z
 dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL 1.6.0-r1 1.7.3-r1: BeLike::KENTNL when you build your distributions.
 dev-perl/Dist-Zilla-PluginBundle-RJBS 1.17.0: BeLike::RJBS when you build your dists
 dev-perl/Dist-Zilla-Role-Bootstrap 1.0.1: Shared logic for bootstrap things.
+dev-perl/Dist-Zilla-Role-FileWatcher 0.6.0: Receive notification when something changes a file's contents
 dev-perl/Dist-Zilla-Role-Tempdir 0.10.537.220: Shell Out and collect the result in a DZ plug-in.
 dev-perl/Dist-Zilla-Util-EmulatePhase 0.10.258.20-r1: Nasty tools for probing < C<Dist::Zilla's|Dist::Zilla >> internal state.
 dev-perl/Dist-Zilla-Util-Test-KENTNL 1.5.12: KENTNL's DZil plugin testing tool
@@ -488,7 +489,7 @@ dev-perl/MooseX-Role-Tempdir 0.30.0: Moose role to provide temporary directories
 dev-perl/MooseX-Role-TraitConstructor 0.10.0: A wrapper for new that can accept a traits parameter.
 dev-perl/MooseX-SemiAffordanceAccessor 0.90.0-r1: Name your accessors foo() and set_foo()
 dev-perl/MooseX-Singleton 0.290.0-r1: turn your Moose class into a singleton
-dev-perl/MooseX-Storage 0.330.0: A serialization framework for Moose classes
+dev-perl/MooseX-Storage 0.330.0 0.520.0: A serialization framework for Moose classes
 dev-perl/MooseX-Traits 0.120.0: Automatically apply roles at object creation time
 dev-perl/MooseX-Traits-Pluggable 0.100.0: An extension to MooseX::Traits
 dev-perl/MooseX-TransactionalMethods 0.8.0-r1: Syntax sugar for transactional methods
@@ -530,6 +531,7 @@ dev-perl/POE-Component-Syndicator 0.60.0-r1: A POE component base class which im
 dev-perl/POE-Filter-IRCD 2.420.0-r1: A POE-based parser for the IRC protocol.
 dev-perl/POE-Filter-XML 1.140.700: XML Parsing for the POE Framework
 dev-perl/PPI-XS 0.902.0: (Minor) XS acceleration for PPI
+dev-perl/PPIx-XPath 2.20.0: an XPath implementation for the PDOM
 dev-perl/PSGI 1.101.0-r1: Perl Web Server Gateway Interface Specification
 dev-perl/Package-Generator 1.106.0: generate new packages quickly and easily
 dev-perl/Package-Pkg 0.2.0-r1: Handy package munging utilities
@@ -561,6 +563,7 @@ dev-perl/Pod-Coverage-Moose 0.40.0-r1: Pod::Coverage extension for Moose
 dev-perl/Pod-Coverage-TrustPod 0.100.2-r2: allow a module's pod to contain Pod::Coverage hints
 dev-perl/Pod-Elemental-Transformer-List 0.102.0: transform :list regions into =over/=back to save typing
 dev-perl/Pod-Elemental-Transformer-WikiDoc 0.93.2-r1: a transformer to replace "wikidoc" data regions with Pod5 elements
+dev-perl/Pod-Markdown-Github 0.10.0: Convert POD to Githubs specific markdown
 dev-perl/Pod-Plainer 1.30.0-r2: Perl extension for converting Pod to old-style Pod
 dev-perl/Pod-ProjectDocs 0.400.0-r2: generates CPAN like pod pages
 dev-perl/Pod-PseudoPod 0.180.0-r1: A framework for parsing PseudoPod
@@ -647,6 +650,7 @@ dev-perl/Test-CPAN-Meta-YAML 0.210.0-r1: Validate your CPAN META.yml file
 dev-perl/Test-Class-Most 0.80.0: Test Classes the easy way
 dev-perl/Test-Compile 0.240.0: Check whether Perl files compile correctly.
 dev-perl/Test-Corpus-Audio-MPD 1.120.990-r1: automate launching of fake mdp for testing purposes
+dev-perl/Test-Deep-Type 0.8.0: A Test::Deep plugin for validating type constraints
 dev-perl/Test-Exception-LessClever 0.6.0: Test::Exception simplified
 dev-perl/Test-Expect 0.310.0-r1: Automated driving and testing of terminal-based programs
 dev-perl/Test-Filename 0.30.0-r1: Portable filename comparison
@@ -690,6 +694,7 @@ dev-perl/Time-y2038 20100403.0.0: Versions of Perl's time functions which work b
 dev-perl/Travel-Routing-DE-VRR 2.20.0: unofficial interface to the efa.vrr.de German itinerary service
 dev-perl/Tree-Simple-VisitorFactory 0.120.0: A factory object for dispensing Visitor objects
 dev-perl/Tree-Trie 1.900.0-r1: A data structure optimized for prefix lookup.
+dev-perl/Tree-XPathEngine 0.50.0: a re-usable XPath engine
 dev-perl/TryCatch 1.3.2-r1: first class try catch semantics for Perl, without source filters.
 dev-perl/URI-Escape-XS 0.100.0: Drop-In replacement for URI::Escape
 dev-perl/URI-Fetch-SimpleCache 0.20.0: URI::Fetch extension with local cache
@@ -703,7 +708,7 @@ dev-perl/V 0.130.0-r1: Print version of the specified module(s).
 dev-perl/VCI 0.7.1-r1: A generic interface for interacting with various version control systems
 dev-perl/WWW-Facebook-API 0.4.18-r1: Perl interface to Facebook Platform API
 dev-perl/WWW-Mechanize-Cached 1.430.0: Cache response to be polite
-dev-perl/WWW-Mechanize-TreeBuilder 1.100.30-r1: This module combines WWW::Mechanize and HTML::TreeBuilder.
+dev-perl/WWW-Mechanize-TreeBuilder 1.100.30-r1 1.200.0: This module combines WWW::Mechanize and HTML::TreeBuilder.
 dev-perl/WWW-REST 0.11.0: Base class for REST resources
 dev-perl/WWW-Robot 0.26.0: Web traversal engine for robots and agents
 dev-perl/WWW-Search 2.509.0-r1: Virtual base class for WWW searches
