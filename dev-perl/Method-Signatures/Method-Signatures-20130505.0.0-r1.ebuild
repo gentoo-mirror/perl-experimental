@@ -1,8 +1,9 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=BAREFOOT
-MODULE_VERSION=20130222
+MODULE_VERSION=20130505
 inherit perl-module
 
 DESCRIPTION='method and function declarations with signatures and no source filter'
@@ -31,8 +32,6 @@ perl_meta_runtime() {
 	echo \>=dev-perl/Any-Moose-0.110.0
 	# Const::Fast 0.006 ( 0.6.0 )
 	echo \>=dev-perl/Const-Fast-0.6.0
-	# Data::Alias 1.08 ( 1.80.0 )
-	echo \>=dev-perl/Data-Alias-1.80.0
 	# Devel::Declare 0.006002 ( 0.6.2 )
 	echo \>=dev-perl/Devel-Declare-0.6.2
 	# Devel::Declare::MethodInstaller::Simple 0.006002 ( 0.6.2 )
@@ -56,4 +55,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"
