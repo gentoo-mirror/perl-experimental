@@ -5,7 +5,7 @@ dev-perl/Algorithm-Diff-XS 0.40.0: Algorithm::Diff with XS core loop
 dev-perl/Algorithm-FloodControl 2.1.0: Limit event processing to count/time ratio.
 dev-perl/Algorithm-IncludeExclude 0.10.0-r1: build and evaluate include/exclude lists
 dev-perl/Algorithm-Merge 0.80.0: Three-way merge and diff
-dev-perl/Amazon-S3 0.450.0: A portable client library for working with and managing Amazon S3 buckets and keys.
+dev-perl/Amazon-S3 0.450.0: Amazon S3 bucket and key management client library
 dev-perl/Any-URI-Escape 0.10.0-r1: Load URI::Escape::XS preferentially over URI::Escape
 dev-perl/Apache-Htpasswd 1.900.0: Manage Unix crypt-style password file.
 dev-perl/Apache-LogRegex 1.700.0: Parse a line from an Apache logfile into a hash
@@ -63,7 +63,7 @@ dev-perl/CPAN-DistnameInfo 0.120.0-r1: Extract distribution name and version fro
 dev-perl/CPAN-Inject 1.140.0-r1: Base class for injecting distributions into CPAN sources
 dev-perl/CPAN-ParseDistribution 1.400.0 1.520.0: index a file from the BackPAN
 dev-perl/CPAN-Reporter 1.201.0: Adds CPAN Testers reporting to CPAN.pm
-dev-perl/CPANPLUS 0.915.200-r1: Ameliorated interface to the CPAN
+dev-perl/CPANPLUS 0.915.200-r2: Ameliorated interface to the CPAN
 dev-perl/CPANPLUS-Dist-Build 0.780.0: CPANPLUS plugin to install packages that use Build.PL
 dev-perl/CPANPLUS-Dist-Gentoo 0.120.0-r2: CPANPLUS backend generating Gentoo ebuilds.
 dev-perl/CPS 0.180.0: manage flow of control in Continuation-Passing Style
@@ -125,7 +125,7 @@ dev-perl/Catalyst-Plugin-PageCache 0.310.0-r2: Cache the output of entire pages
 dev-perl/Catalyst-Plugin-Params-Demoronize 1.140.0: Convert common UTF-8 and Windows-1252 characters to their ASCII equivalents
 dev-perl/Catalyst-Plugin-Prototype 1.330.0: Plugin for Prototype
 dev-perl/Catalyst-Plugin-Scheduler 0.100.0-r1: Schedule events to run in a cron-like fashion
-dev-perl/Catalyst-Plugin-Session 0.370.0-r1: Generic Session plugin - connect server side storage and client side state to maintain session data
+dev-perl/Catalyst-Plugin-Session 0.370.0-r1: Generic client-server session maintenance for Catalyst
 dev-perl/Catalyst-Plugin-Session-DynamicExpiry 0.40.0: per-session custom expiry times
 dev-perl/Catalyst-Plugin-Session-PerUser 0.50.0-r1: Per user sessions (instead of per browser sessions).
 dev-perl/Catalyst-Plugin-Session-State-Cookie 0.170.0-r1: Catalyst plugin: maintain session IDs using cookies
@@ -141,13 +141,13 @@ dev-perl/Catalyst-Plugin-Session-Store-Memcached 0.50.0-r1: Memcached storage ba
 dev-perl/Catalyst-Plugin-Setenv 0.30.0: Allows you to set up the environment from Catalyst's config file
 dev-perl/Catalyst-Plugin-StackTrace 0.120.0-r1: Display a stack trace on the debug screen
 dev-perl/Catalyst-Plugin-Static-Simple 0.300.0-r1: Make serving static pages painless.
-dev-perl/Catalyst-Plugin-StatusMessage 1.2.0-r1: Handle passing of status (success and error) messages between screens of a web application.
+dev-perl/Catalyst-Plugin-StatusMessage 1.2.0-r1: Inter-page status-message passing for web apps
 dev-perl/Catalyst-Plugin-SubRequest 0.200.0-r1: Make subrequests to actions in Catalyst
 dev-perl/Catalyst-Plugin-SuperForm 0.10.0: Create sticky HTML forms
 dev-perl/Catalyst-Plugin-UploadProgress 0.60.0: Realtime file upload information
 dev-perl/Catalyst-Runtime 5.900.850-r1: The Catalyst Framework Runtime
 dev-perl/Catalyst-View-Component-SubInclude 0.100.0-r1: Use subincludes in your Catalyst views
-dev-perl/Catalyst-View-ContentNegotiation-XHTML 1.103.0: Adjusts the response Content-Type header to application/xhtml+xml if the browser accepts it.
+dev-perl/Catalyst-View-ContentNegotiation-XHTML 1.103.0: Support dispatching Content-Type: application/xhtml+xml when requested.
 dev-perl/Catalyst-View-Download 0.90.0-r1: Helper for Download Views
 dev-perl/Catalyst-View-Email 0.330.0: Send Email from Catalyst
 dev-perl/Catalyst-View-Excel-Template-Plus 0.30.0: A Catalyst View for Excel::Template::Plus
@@ -212,7 +212,6 @@ dev-perl/Dancer2-Plugin-Auth-Tiny 0.3.0 0.7.0: Require logged-in user for specif
 dev-perl/Dancer2-Plugin-Database 2.100.0 2.120.0 2.130.0: easy database connections for Dancer2 applications
 dev-perl/Dancer2-Plugin-Emailesque 0.20.0 0.30.0: Simple Emailesque support for Dancer2
 dev-perl/Dancer2-Session-Cookie 0.5.0 0.6.0: Dancer 2 session storage in secure cookies
-dev-perl/Data-Alias 1.180.0: Comprehensive set of aliasing operations
 dev-perl/Data-Clone 0.4.0: Polymorphic data cloning
 dev-perl/Data-Currency 0.60.0: Container class for currency conversion/formatting
 dev-perl/Data-DPath 0.530.0: DPath is not XPath!
@@ -246,7 +245,7 @@ dev-perl/DateTime-Format-MySQL 0.40.0-r1: Parse and format MySQL dates and times
 dev-perl/DateTime-Format-Pg 0.160.80: Parse and format PostgreSQL dates and times
 dev-perl/DateTime-TimeZone-SystemV 0.6.0-r1: System V and POSIX timezone strings
 dev-perl/DateTime-TimeZone-Tzfile 0.7.0-r1: tzfile (zoneinfo) timezone files
-dev-perl/Debug-ShowStuff 1.160.0-r1: A debugging routine collection for displaying the values of variables with a minimum of coding.
+dev-perl/Debug-ShowStuff 1.160.0-r1: A debugging routines for easy varible display
 dev-perl/Devel-Autoflush 0.60.0: Set autoflush from the command line
 dev-perl/Devel-BeginLift 0.1.3-r1: Make selected sub calls evaluate at compile time
 dev-perl/Devel-CheckOS 1.710.0: check what OS we're running on
@@ -270,8 +269,8 @@ dev-perl/Dist-Zilla-Plugin-CheckExtraTests 0.11.0 0.29.0: check xt tests before 
 dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed 0.8.0: prevent a release if you have prereqs not found on CPAN
 dev-perl/Dist-Zilla-Plugin-GithubMeta 0.420.0: Automatically include GitHub meta information in META.yml
 dev-perl/Dist-Zilla-Plugin-MetaData-BuiltWith 0.40.0.0: Report what versions of things your distribution was built against
-dev-perl/Dist-Zilla-Plugin-MetaProvides-Class 2.1.0: Scans Dist::Zilla's .pm files and tries to identify classes using Class::Discover.
-dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile 1.110.602.110: In the event nothing else works, pull in hand-crafted metadata from a specified file.
+dev-perl/Dist-Zilla-Plugin-MetaProvides-Class 2.1.0: Identify classes in Dist::Zilla's .pm files with Class::Discover
+dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile 1.110.602.110: Pull in hand-crafted provides metadata from a specified file
 dev-perl/Dist-Zilla-Plugin-MinimumPerl 1.3.0-r1: Detects the minimum version of Perl required for your dist
 dev-perl/Dist-Zilla-Plugin-ModuleInstall 0.20.0.0: Build Module::Install based Distributions with Dist::Zilla
 dev-perl/Dist-Zilla-Plugin-PerlTidy 0.160.0: PerlTidy in Dist::Zilla
@@ -351,7 +350,7 @@ dev-perl/Git-Repository-Plugin-AUTOLOAD 1.1.0: Git subcommands as Git::Repositor
 dev-perl/Git-Sub 0.130.270: git commands imported as System::Sub subs in git:: namespace
 dev-perl/Gitalist 0.5.1-r1: A modern git web viewer
 dev-perl/Gtk3 0.9.0: Perl interface to the 3.x series of the gtk+ toolkit
-dev-perl/HTML-Defang 1.40.0: Cleans HTML as well as CSS of scripting and other executable contents, and neutralises XSS attacks.
+dev-perl/HTML-Defang 1.40.0: Defend HTML, CSS, scripts and other executable contents against XSS attacks
 dev-perl/HTML-FormFu 2.10.0-r3: HTML Form Creation, Rendering and Validation Framework
 dev-perl/HTML-FormFu-Element-reCAPTCHA 1.0.0: "Are you human" tester!
 dev-perl/HTML-FormFu-Model-DBIC 0.90.100: Integrate HTML::FormFu with DBIx::Class
@@ -429,7 +428,7 @@ dev-perl/MemHandle 0.70.0-r1: supply memory-based FILEHANDLE methods
 dev-perl/Memoize-ExpireLRU 0.550.0-r1: Expiry plug-in for Memoize that adds LRU cache expiration
 dev-perl/Meta-Builder 0.3.0-r1: Tools for creating Meta objects to track custom metrics
 dev-perl/MetaCPAN-API 0.430.0-r1: A comprehensive, DWIM-featured API to MetaCPAN
-dev-perl/Method-Signatures 20121201.0.0 20130222.0.0 20130505.0.0: method and function declarations with signatures and no source filter
+dev-perl/Method-Signatures 20130505.0.0-r1: method and function declarations with signatures and no source filter
 dev-perl/Method-Signatures-Simple 1.70.0: Basic method declarations with signatures, without source filters
 dev-perl/Mixin-ExtraFields 0.140.2: add extra stashes of data to your objects
 dev-perl/Mixin-ExtraFields-Param 0.21.0: make your class provide a familiar "param" method
@@ -437,7 +436,7 @@ dev-perl/Mock-Quick 1.107.0: Quickly mock objects and classes, even temporarily 
 dev-perl/ModPerl-VersionUtil 0.30.0-r1: Makes it easier to investigate your mod_perl version
 dev-perl/Module-CPANTS-Analyse 0.960.0-r2: Generate Kwalitee ratings for a distribution
 dev-perl/Module-CPANfile 1.100.0: Parse cpanfile
-dev-perl/Module-Compile-TT 0.20.0-r1: Preprocess Perl code with Template Toolkit and Module::Compile.
+dev-perl/Module-Compile-TT 0.20.0-r2: Preprocess Perl code with Template Toolkit and Module::Compile.
 dev-perl/Module-Data 0.6.0-r1: Introspect context information about modules in @INC
 dev-perl/Module-Extract 0.10.0: Base class for working with Perl distributions
 dev-perl/Module-Extract-Namespaces 1.10.0: extract the package declarations from a module
@@ -460,7 +459,7 @@ dev-perl/MooseX-Attribute-Chained 1.0.1-r1: Attribute that returns the instance 
 dev-perl/MooseX-AttributeIndexes 1.0.3: Advertise metadata about your Model-Representing Classes to Any Database tool.
 dev-perl/MooseX-AttributeShortcuts 0.19.0: Shorthand for common attribute options
 dev-perl/MooseX-AuthorizedMethods 0.6.0-r1: Syntax sugar for authorized methods
-dev-perl/MooseX-Blessed-Reconstruct 1.0.0-r1: A Data::Visitor for creating Moose objects from blessed placeholders
+dev-perl/MooseX-Blessed-Reconstruct 1.0.0-r2: A Data::Visitor for creating Moose objects from blessed placeholders
 dev-perl/MooseX-Clone 0.60.0: Fine grained cloning support for Moose objects.
 dev-perl/MooseX-CoercePerAttribute 0.802.0: Define Coercions per attribute!
 dev-perl/MooseX-Daemonize 0.180.0: Role for daemonizing your Moose based application
@@ -549,7 +548,7 @@ dev-perl/Path-Abstract 0.96.0-r1: A fast and featureful class for UNIX-style pat
 dev-perl/Path-Class-Rule 0.12.0 0.18.0: Iterative, recursive file finder with Path::Class
 dev-perl/Path-Iterator-Rule 0.11.0 0.14.0 1.0.0 1.5.0: Iterative, recursive file finder
 dev-perl/Path-ScanINC 0.3.0: Emulate Perls internal handling of @INC.
-dev-perl/Perl-Critic-Moose 1.30.0: Policies for Perl::Critic concerned with using Moose, the "post-modern" object system for Perl.
+dev-perl/Perl-Critic-Moose 1.30.0: Policies for Perl::Critic concerned with using the Moose object system
 dev-perl/Perl6-Caller 0.100.0-r1: OO caller() interface
 dev-perl/Petal 2.210.0 2.220.0: Perl Template Attribute Language - TAL for Perl!
 dev-perl/Plack-Middleware-FixMissingBodyInRedirect 0.100.0: Plack::Middleware which sets body for redirect response, if it's not already set
@@ -581,7 +580,7 @@ dev-perl/SVN-Notify 2.840.0: Subversion activity notification
 dev-perl/SWF-Chart 1.400.0: Perl interface to the SWF Chart generation tool
 dev-perl/Scalar-String 0.2.0-r1: string aspects of scalars
 dev-perl/Search-GIN 0.110.0: Generalized Inverted Indexing
-dev-perl/Search-GIN-Extract-AttributeIndexes 1.0.2: Automatically collect index metadata from MooseX::AttributeIndexes consuming models.
+dev-perl/Search-GIN-Extract-AttributeIndexes 1.0.2: Extract index metadata from MooseX::AttributeIndexes models
 dev-perl/Search-GIN-Extract-ClassMap 0.10.608.170: Delegate Extraction based on class.
 dev-perl/Search-Sitemap 2.130.0-r1: Perl extension for managing Search Engine Sitemaps
 dev-perl/Session-Storage-Secure 0.10.0: Encrypted, expiring, compressed, serialized session data with integrity
@@ -599,7 +598,7 @@ dev-perl/String-MkPasswd 0.40.0-r1: random password generator
 dev-perl/String-Random 0.280.0: Perl module to generate random strings based on a pattern
 dev-perl/String-ToIdentifier-EN 0.80.0 0.90.0: Convert Strings to English Program Identifiers
 dev-perl/String-Util 1.210.0: String::Util -- String processing utilities
-dev-perl/Sub-Compose 0.10.0: takes any number of subroutine references and creates a new subroutine reference from them
+dev-perl/Sub-Compose 0.10.0: Unify multiple subroutine references as a new one
 dev-perl/Sub-Current 0.20.0: Get the current subroutine
 dev-perl/Sub-Curried 0.130.0: Automatically curried subroutines
 dev-perl/Syntax-Highlight-Engine-Kate 0.70.0: a port to Perl of the syntax highlight engine of the Kate texteditor.
@@ -730,23 +729,18 @@ dev-perl/experimental 0.7.0: Experimental features made easy
 dev-perl/iCal-Parser 1.200.0: Parse iCalendar files into a data structure
 dev-perl/mocked 0.90.0: use mocked libraries in unit tests
 dev-perl/perl5i 2.13.1: Fix as much of Perl 5 as possible in one pragma
-dev-perl/pip 1.190.0-r1: The Perl Installation Program, for scripted and third-party distribution installation.
+dev-perl/pip 1.190.0-r1: The Perl Installation Program, for scripted/third-party dist installation
 dev-perl/pod2pdf 0.420.0: Converts Pod to PDF format
 dev-perl/recommended 0.3.0: Load recommended modules on demand when available
 dev-perl/signatures 0.110.0: Subroutine signatures with no source filter
 dev-perl/true 0.180.0-r1: automatically return a true value when a file is required
 dev-perl/utf8-all 0.16.0: turn on Unicode - all of it
-perl-core/Env 1.40.0: perl module that imports environment variables as scalars or arrays
-perl-core/IPC-SysV 2.30.0-r1 2.40.0: System V IPC constants and system calls
-virtual/perl-Devel-SelfStubber 1.50.0-r6: Virtual for Devel-SelfStubber
-virtual/perl-File-Fetch 0.480.0-r1: Virtual for File-Fetch
-virtual/perl-IPC-SysV 2.40.0-r2: Virtual for perl-core/IPC-SysV
-virtual/perl-List-Util 1.380.0 1.410.0: Virtual for List-Util
-virtual/perl-NEXT 0.650.0-r4: Virtual for perl-core/NEXT
-virtual/perl-Pod-Checker 1.600.0-r3: Virtual for Pod-Checker
-virtual/perl-Pod-Perldoc 3.230.0 3.250.0: Virtual for perl-core/Pod-Perldoc
-virtual/perl-Pod-Usage 1.630.0 1.640.0: Virtual for Pod-Usage
-virtual/perl-Scalar-Util 1.380.0 1.410.0: Virtual for Scalar-Util
-virtual/perl-SelfLoader 1.210.0-r1 1.220.0: Virtual for SelfLoader
-virtual/perl-Sub-Util 1.410.0: Virtual for Sub-Util
-virtual/perl-constant 1.310.0 1.330.0: Virtual for constant
+virtual/perl-Devel-SelfStubber 1.50.0-r7: Virtual for Devel-SelfStubber
+virtual/perl-File-Fetch 0.480.100: Virtual for File-Fetch
+virtual/perl-IPC-SysV 2.60.100: Virtual for perl-core/IPC-SysV
+virtual/perl-NEXT 0.650.0-r5: Virtual for perl-core/NEXT
+virtual/perl-Pod-Checker 1.600.0-r4: Virtual for Pod-Checker
+virtual/perl-Pod-Perldoc 3.250.300: Virtual for perl-core/Pod-Perldoc
+virtual/perl-Pod-Usage 1.680.0: Virtual for Pod-Usage
+virtual/perl-SelfLoader 1.230.0: Virtual for SelfLoader
+virtual/perl-constant 1.330.0-r1: Virtual for constant
